@@ -77,13 +77,15 @@ section{
 	margin: 40px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	border-radius: 30px;
 }
 
 .noticia_img{
 	border-radius: 15px;
+	width: 100%;
+	height: 300px;
 	overflow: hidden;
 	width: 100%;
 }
@@ -175,7 +177,30 @@ input, textarea {
 	background-color: #fe2b57;
 }
 
+.box_fontes{
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
 
+.fontes{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	overflow: hidden;
+	margin: 20px;
+}
+
+.fontes img{
+	width: 100%;
+}
+
+.fontes img:hover{
+	display: none;
+}
 
 .footer{
 	background-color: #333;
