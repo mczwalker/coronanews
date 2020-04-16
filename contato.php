@@ -60,16 +60,16 @@
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<div class="menu">
 		<div class="img_logo">
-				<img src="assets/images/virus-logo.png" width="160"/>
-				<!--<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
-			</div>
-		<div class="menu">			
+			<img src="assets/images/virus-logo.png" width="160"/>
+		</div>				
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="sobre.html">Sobre</a></li>
 					<li><a href="contato.php">Contato</a></li>
+					<li><a href="saiba-mais.html">Saiba Mais</a></li>
 				</ul>
 			</nav>
 		</div>
