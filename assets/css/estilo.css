@@ -1,0 +1,191 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+section{
+	margin-bottom: 50px;
+}
+
+.menu{
+	background-color: #333;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.img_logo{
+	position: absolute;
+	margin: 10px;
+}
+
+.menu ul{
+	display: flex;
+	flex-direction: row;
+	color: #ffffff;	
+	list-style: none;
+}
+
+.menu li{
+	text-align: center;
+	font-size: 18px;	
+	height: 60px;
+	padding-right: 30px;
+	padding-left: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.menu ul :hover{
+	background-color: #eb5569;
+}
+
+.menu ul li a{
+	color: #ffffff;
+}
+
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.titulo_sessao{
+	margin-top: 40px;
+	margin-left: 40px; 
+}
+
+.box_noticias{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.noticia{
+	width: 520px;
+	height: 580px;
+	background-color: #f0f0f0;
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+}
+
+.noticia_img{
+	border-radius: 15px;
+	overflow: hidden;
+	width: 100%;
+}
+.noticia_img img{
+	width: 100%;
+}
+.noticia_img iframe{
+	width: 100%;
+	height: 300px;
+	
+}
+
+.noticia_titulo{
+	text-align: center;
+	color: #fe2b57;
+	padding: 15px;
+}
+
+.noticia_titulo a{
+	text-decoration: none;
+	color: #fe2b57;
+}
+.noticia_titulo a:hover{
+	text-decoration: none;
+	color: #333;
+}
+
+.noticia_descricao{
+	width: 90%;
+	text-align: justify;
+	margin: 5px;
+}
+
+.noticia_descricao audio{
+	width: 100%;
+}
+.sobre{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.box_info{
+	flex: 2;
+}
+
+.image_avatar{
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	background-image: url("../images/allysson.jpeg");
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+
+
+.box_form{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.box_form_int{
+	padding: 20px;
+	width: 60%;
+}
+.box_img_form{
+	flex:1;
+	display: flex;
+	justify-content: center;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 7px;
+}
+.enviar{
+	width: 90px;
+	height: 40px;
+	background-color: #eb5569;
+	color: #FFFFFF;
+}
+.enviar:hover{
+	background-color: #fe2b57;
+}
+
+
+
+.footer{
+	background-color: #333;
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	position: fixed;
+	bottom: 0;
+}
